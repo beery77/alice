@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bestilling</title>
+</head>
+<body>
+  <div class="wrap">
+    <div id="burger">☰</div>
+    <div id="visBurgerIgen">X</div>
+    <div id="besked"></div>
+
+    <nav id="burgerNav">
+        <ul>
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="bestilling.html">Bestil Bord</a></li>
+          <li><a href="omos.html">Om Os</a></li>
+          <li>Menu 5</li>
+        </ul>
+    </nav>
+
+    <form id="bordbestilling">
+        <fieldset id="step1">
+            <legend>Hvor mange personer er i?</legend>
+            Antal personer: <input type="text" name="Name" value="">
+            <br><br>
+            <div id="btn1">Næste</div>
+        </fieldset>
+
+        <fieldset id="step2">
+            <legend>Vælg tidspunkt</legend>
+            <input type="radio" id="1800" name="time" value="1800">
+            <label for="1800">18:00</label><br>
+            <input type="radio" id="1815" name="time" value="1815">
+            <label for="1815">18:15</label><br>
+            <input type="radio" id="1830" name="time" value="1830">
+            <label for="1830">18:30</label><br>
+            <input type="radio" id="1845" name="time" value="1845">
+            <label for="1845">18:45</label><br>
+            <input type="radio" id="1900" name="time" value="1900">
+            <label for="1900">19:00</label>
+            <br><br>
+            <div id="btn2">Næste</div>
+        </fieldset>
+        
+        <fieldset id="step3">
+            <legend>Venligst indtast dine oplysninger</legend>
+            Navn: <input type="text" name="Navn" value="">
+            <br><br>
+            Email: <input type="text" name="Email" value="">
+            <br><br>
+            <input type="submit">
+        </fieldset>
+    </form>
+  
+
+    <footer>
+      <div id="footer"></div>
+    </footer>
+  </div>  
+  <script src="nav.js"></script>
+  <script src="bestilling.js"></script>
+  <script src="footer.js"></script>
+</body>
+</html> 
